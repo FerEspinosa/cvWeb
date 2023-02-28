@@ -1,0 +1,163 @@
+.section {
+	position: relative;
+	height: fit-content;
+	min-height: 100vh;
+	margin-top: 10%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	overflow: hidden;
+	font-family: 'Source Code Pro', monospace;
+  }
+
+#home-title-container {
+	display: flex;
+	flex-direction: row;
+}
+
+#section-title-1{
+	color: #be813a;
+}
+
+#section-title-2 {
+	color: #c7a922;
+}
+
+.white-bracket {
+	color: #ffffff;
+}
+
+#white-bracket {
+	color: #ffffff;
+}
+
+.black-brackets {
+	color: #343a40;
+}
+  
+#home {
+	background:  rgb(44, 44, 44);
+	margin-top: 50px;
+	height: 90vp;
+}
+
+#home-container {
+	padding-left: 5%;
+	padding-right: 5%;
+	max-width: 900px;
+	color: #97dada;
+	font-family: 'Source Code Pro', monospace;
+}
+
+.company-name {
+margin: 0px;
+font-weight: bold;
+}
+
+#estudios {
+	background:  rgb(235, 228, 219);
+	margin-top: 50px;
+	height: 90vp;
+}
+
+#estudios-container {
+	padding-left: 5%;
+	padding-right: 5%;
+	max-width: 900px;
+	font-family: 'Source Code Pro', monospace;
+}
+
+#experiencia-container {
+	height:fit-content;
+}
+  
+.navbar {
+	background-color: #343a40;
+}
+  
+.navbar-brand {
+	font-size: 1.5rem;
+}
+  
+.navbar-nav {
+	margin-left: auto;
+	align-items: center;
+	align-content: center;
+}
+  
+.nav-link {
+	font-size: 1.2rem;
+	padding: 1rem;
+}
+ 
+#all-cards-container {
+	min-height: fit-content;
+	margin-top: 4%;	 
+}
+
+#cursos-container{
+	background-color: #343a40;
+	margin-right: 0px;
+	margin-left: 4%;
+	padding: 5%;
+	color:antiquewhite;
+}
+
+#course-name {
+	margin-bottom: 10%;
+}
+
+.course-date {
+	color:#45b3bb;
+}
+
+.carrera {
+	font-weight: 800;
+}
+
+.row{
+	margin: 3%;
+}
+
+.card {
+	background-color: #e9e9e9;
+	border-style: none;
+	min-height:100%;
+}
+
+.card-body{
+	min-height: 350px;
+}
+
+  
+.card-title {
+	font-size: 1.2rem;
+	font-family: 'Source Code Pro', monospace;
+	color: #be813a;
+	font-weight:900;
+	margin-bottom: 0px;
+}
+
+.date {
+	color: #45b3bb;
+	margin-top: 0px;
+}
+  
+@media (max-width: 767px) {
+	.navbar-nav {
+	  margin: 0;
+	}
+	.nav-link {
+	  padding: 0.5rem;
+	}
+	.card-title {
+	  font-size: 1rem;
+	}
+	#experiencia h2 {
+		font-size: 2rem;
+	}
+	.card-body{
+		min-height: 0px;
+	}
+}

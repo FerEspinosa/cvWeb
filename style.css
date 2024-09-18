@@ -13,7 +13,11 @@
 
 #home-title-container {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
+}
+
+.fernando-text{
+    color: #c7a922
 }
 
 #section-title-1{

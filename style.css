@@ -17,17 +17,17 @@
 }
 
 
-#section-title-1{
+#section-title-orange{
 	color: #be813a;
 }
 
-#section-title-2 {
+#section-title-yellow {
 	color: #c7a922;
 }
 
-#section-title-3 {
+#section-title-white {
 	color: #fff;
-	font-size: 0.5 em;
+	
 }
 
 .white-bracket {
@@ -46,6 +46,8 @@
 	background:  rgb(44, 44, 44);
 	margin-top: 50px;
 	height: 90vp;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 #home-container {
@@ -166,4 +168,11 @@ font-weight: bold;
 	.card-body{
 		min-height: 0px;
 	}
+
+    .display-4{
+        font-size:35px;
+    }
+    .display-5{
+        font-size:large;
+    }
 }

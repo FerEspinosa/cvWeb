@@ -55,8 +55,21 @@
 #home-container {
 	padding-left: 5%;
 	padding-right: 5%;
+    margin-top: 10%;
+	margin-bottom: 10%;
 	max-width: 900px;
 	color: #97dada;
+	font-family: 'Source Code Pro', monospace;
+}
+
+#contacto-container {
+	padding-left: 5%;
+	padding-right: 5%;
+    display: flex;
+	flex-direction: column;
+    margin-top: 10%;
+	margin-bottom: 10%;
+	max-width: 900px;
 	font-family: 'Source Code Pro', monospace;
 }
 

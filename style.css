@@ -2,7 +2,7 @@
 	position: relative;
 	height: fit-content;
 	min-height: 100vh;
-	margin-top: 10%;
+	padding-top: 10%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -11,10 +11,6 @@
 	font-family: 'Source Code Pro', monospace;
   }
 
-#home-title-container {
-	display: flex;
-	flex-direction: column;
-}
 
 
 #section-title-orange{
@@ -45,7 +41,7 @@
 #home {
 	background:  rgb(44, 44, 44);
 	margin-top: 50px;
-	height: 90vp;
+
     padding-left: 5px;
     padding-right: 5px;
     padding-top: 20px;
@@ -55,8 +51,6 @@
 #home-container {
 	padding-left: 5%;
 	padding-right: 5%;
-    margin-top: 10%;
-	margin-bottom: 10%;
 	max-width: 900px;
 	color: #97dada;
 	font-family: 'Source Code Pro', monospace;
@@ -116,12 +110,8 @@ font-weight: bold;
 	padding: 1rem;
 }
  
-#all-cards-container {
-	min-height: fit-content;
-	margin-top: 4%;	 
-}
 
-#cursos-container{
+.cursos-container{
 	background-color: #343a40;
 	margin-right: 0px;
 	margin-left: 4%;
@@ -131,6 +121,16 @@ font-weight: bold;
 
 #course-name {
 	margin-bottom: 10%;
+}
+
+.android-item {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 10px;
+}
+
+.android-item > h5 {
+	margin-right: 7px;
 }
 
 .course-date {
@@ -190,4 +190,4 @@ font-weight: bold;
     .display-5{
         font-size:large;
     }
-}
+}   
